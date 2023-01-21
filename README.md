@@ -23,7 +23,7 @@ In the directory the script is running from the script is expected to do the fol
 
  - Create the following folders `versions`, `minecraft`, `minecraf/logs`, `minecraft/config`, and `minecraft/plugins`
  - Automatically accept the [Minecraft ELUA, please read it before running the script](https://www.minecraft.net/en-us/eula)
- - Create a `supervisord` config file at `/etc/superivosr/conf.d/minecraft.conf`
+ - Create a `supervisord` config file at `/etc/supervisor/conf.d/minecraft.conf`
  - Fetch the latest build list from Minecraft's servers
  - Download the latest build of the given minecraft server type
  

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "args: $@";
 
-if [ $1 == "paper" ]; then
+if [ "$1" == "paper" ]; then
     echo "Updating paper minecraft server!"
     node paper-mc-update.js
 else
